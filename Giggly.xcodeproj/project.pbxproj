@@ -1,0 +1,593 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		572775962BA2D260005DE2D8 /* GigglyApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 572775952BA2D260005DE2D8 /* GigglyApp.swift */; };
+		572775982BA2D260005DE2D8 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 572775972BA2D260005DE2D8 /* ContentView.swift */; };
+		5727759A2BA2D262005DE2D8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 572775992BA2D262005DE2D8 /* Assets.xcassets */; };
+		5727759D2BA2D262005DE2D8 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5727759C2BA2D262005DE2D8 /* Preview Assets.xcassets */; };
+		572775A72BA2D263005DE2D8 /* GigglyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 572775A62BA2D263005DE2D8 /* GigglyTests.swift */; };
+		572775B12BA2D263005DE2D8 /* GigglyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 572775B02BA2D263005DE2D8 /* GigglyUITests.swift */; };
+		572775B32BA2D263005DE2D8 /* GigglyUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 572775B22BA2D263005DE2D8 /* GigglyUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		572775A32BA2D263005DE2D8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5727758A2BA2D260005DE2D8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 572775912BA2D260005DE2D8;
+			remoteInfo = Giggly;
+		};
+		572775AD2BA2D263005DE2D8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5727758A2BA2D260005DE2D8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 572775912BA2D260005DE2D8;
+			remoteInfo = Giggly;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		572775922BA2D260005DE2D8 /* Giggly.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Giggly.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		572775952BA2D260005DE2D8 /* GigglyApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GigglyApp.swift; sourceTree = "<group>"; };
+		572775972BA2D260005DE2D8 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		572775992BA2D262005DE2D8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5727759C2BA2D262005DE2D8 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		572775A22BA2D263005DE2D8 /* GigglyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GigglyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		572775A62BA2D263005DE2D8 /* GigglyTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GigglyTests.swift; sourceTree = "<group>"; };
+		572775AC2BA2D263005DE2D8 /* GigglyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GigglyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		572775B02BA2D263005DE2D8 /* GigglyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GigglyUITests.swift; sourceTree = "<group>"; };
+		572775B22BA2D263005DE2D8 /* GigglyUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GigglyUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5727758F2BA2D260005DE2D8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5727759F2BA2D263005DE2D8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		572775A92BA2D263005DE2D8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		572775892BA2D260005DE2D8 = {
+			isa = PBXGroup;
+			children = (
+				572775942BA2D260005DE2D8 /* Giggly */,
+				572775A52BA2D263005DE2D8 /* GigglyTests */,
+				572775AF2BA2D263005DE2D8 /* GigglyUITests */,
+				572775932BA2D260005DE2D8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		572775932BA2D260005DE2D8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				572775922BA2D260005DE2D8 /* Giggly.app */,
+				572775A22BA2D263005DE2D8 /* GigglyTests.xctest */,
+				572775AC2BA2D263005DE2D8 /* GigglyUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		572775942BA2D260005DE2D8 /* Giggly */ = {
+			isa = PBXGroup;
+			children = (
+				572775952BA2D260005DE2D8 /* GigglyApp.swift */,
+				572775972BA2D260005DE2D8 /* ContentView.swift */,
+				572775992BA2D262005DE2D8 /* Assets.xcassets */,
+				5727759B2BA2D262005DE2D8 /* Preview Content */,
+			);
+			path = Giggly;
+			sourceTree = "<group>";
+		};
+		5727759B2BA2D262005DE2D8 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				5727759C2BA2D262005DE2D8 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		572775A52BA2D263005DE2D8 /* GigglyTests */ = {
+			isa = PBXGroup;
+			children = (
+				572775A62BA2D263005DE2D8 /* GigglyTests.swift */,
+			);
+			path = GigglyTests;
+			sourceTree = "<group>";
+		};
+		572775AF2BA2D263005DE2D8 /* GigglyUITests */ = {
+			isa = PBXGroup;
+			children = (
+				572775B02BA2D263005DE2D8 /* GigglyUITests.swift */,
+				572775B22BA2D263005DE2D8 /* GigglyUITestsLaunchTests.swift */,
+			);
+			path = GigglyUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		572775912BA2D260005DE2D8 /* Giggly */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 572775B62BA2D263005DE2D8 /* Build configuration list for PBXNativeTarget "Giggly" */;
+			buildPhases = (
+				5727758E2BA2D260005DE2D8 /* Sources */,
+				5727758F2BA2D260005DE2D8 /* Frameworks */,
+				572775902BA2D260005DE2D8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Giggly;
+			productName = Giggly;
+			productReference = 572775922BA2D260005DE2D8 /* Giggly.app */;
+			productType = "com.apple.product-type.application";
+		};
+		572775A12BA2D263005DE2D8 /* GigglyTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 572775B92BA2D263005DE2D8 /* Build configuration list for PBXNativeTarget "GigglyTests" */;
+			buildPhases = (
+				5727759E2BA2D263005DE2D8 /* Sources */,
+				5727759F2BA2D263005DE2D8 /* Frameworks */,
+				572775A02BA2D263005DE2D8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				572775A42BA2D263005DE2D8 /* PBXTargetDependency */,
+			);
+			name = GigglyTests;
+			productName = GigglyTests;
+			productReference = 572775A22BA2D263005DE2D8 /* GigglyTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		572775AB2BA2D263005DE2D8 /* GigglyUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 572775BC2BA2D263005DE2D8 /* Build configuration list for PBXNativeTarget "GigglyUITests" */;
+			buildPhases = (
+				572775A82BA2D263005DE2D8 /* Sources */,
+				572775A92BA2D263005DE2D8 /* Frameworks */,
+				572775AA2BA2D263005DE2D8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				572775AE2BA2D263005DE2D8 /* PBXTargetDependency */,
+			);
+			name = GigglyUITests;
+			productName = GigglyUITests;
+			productReference = 572775AC2BA2D263005DE2D8 /* GigglyUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5727758A2BA2D260005DE2D8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1530;
+				LastUpgradeCheck = 1530;
+				TargetAttributes = {
+					572775912BA2D260005DE2D8 = {
+						CreatedOnToolsVersion = 15.3;
+					};
+					572775A12BA2D263005DE2D8 = {
+						CreatedOnToolsVersion = 15.3;
+						TestTargetID = 572775912BA2D260005DE2D8;
+					};
+					572775AB2BA2D263005DE2D8 = {
+						CreatedOnToolsVersion = 15.3;
+						TestTargetID = 572775912BA2D260005DE2D8;
+					};
+				};
+			};
+			buildConfigurationList = 5727758D2BA2D260005DE2D8 /* Build configuration list for PBXProject "Giggly" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 572775892BA2D260005DE2D8;
+			productRefGroup = 572775932BA2D260005DE2D8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				572775912BA2D260005DE2D8 /* Giggly */,
+				572775A12BA2D263005DE2D8 /* GigglyTests */,
+				572775AB2BA2D263005DE2D8 /* GigglyUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		572775902BA2D260005DE2D8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5727759D2BA2D262005DE2D8 /* Preview Assets.xcassets in Resources */,
+				5727759A2BA2D262005DE2D8 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		572775A02BA2D263005DE2D8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		572775AA2BA2D263005DE2D8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5727758E2BA2D260005DE2D8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				572775982BA2D260005DE2D8 /* ContentView.swift in Sources */,
+				572775962BA2D260005DE2D8 /* GigglyApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5727759E2BA2D263005DE2D8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				572775A72BA2D263005DE2D8 /* GigglyTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		572775A82BA2D263005DE2D8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				572775B12BA2D263005DE2D8 /* GigglyUITests.swift in Sources */,
+				572775B32BA2D263005DE2D8 /* GigglyUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		572775A42BA2D263005DE2D8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 572775912BA2D260005DE2D8 /* Giggly */;
+			targetProxy = 572775A32BA2D263005DE2D8 /* PBXContainerItemProxy */;
+		};
+		572775AE2BA2D263005DE2D8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 572775912BA2D260005DE2D8 /* Giggly */;
+			targetProxy = 572775AD2BA2D263005DE2D8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		572775B42BA2D263005DE2D8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		572775B52BA2D263005DE2D8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		572775B72BA2D263005DE2D8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Giggly/Preview Content\"";
+				DEVELOPMENT_TEAM = 4M9SK8RBH9;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Leon-Schwinkendorf.Giggly";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		572775B82BA2D263005DE2D8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Giggly/Preview Content\"";
+				DEVELOPMENT_TEAM = 4M9SK8RBH9;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Leon-Schwinkendorf.Giggly";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		572775BA2BA2D263005DE2D8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4M9SK8RBH9;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Leon-Schwinkendorf.GigglyTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Giggly.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Giggly";
+			};
+			name = Debug;
+		};
+		572775BB2BA2D263005DE2D8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4M9SK8RBH9;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Leon-Schwinkendorf.GigglyTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Giggly.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Giggly";
+			};
+			name = Release;
+		};
+		572775BD2BA2D263005DE2D8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4M9SK8RBH9;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Leon-Schwinkendorf.GigglyUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Giggly;
+			};
+			name = Debug;
+		};
+		572775BE2BA2D263005DE2D8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4M9SK8RBH9;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Leon-Schwinkendorf.GigglyUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Giggly;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5727758D2BA2D260005DE2D8 /* Build configuration list for PBXProject "Giggly" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				572775B42BA2D263005DE2D8 /* Debug */,
+				572775B52BA2D263005DE2D8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		572775B62BA2D263005DE2D8 /* Build configuration list for PBXNativeTarget "Giggly" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				572775B72BA2D263005DE2D8 /* Debug */,
+				572775B82BA2D263005DE2D8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		572775B92BA2D263005DE2D8 /* Build configuration list for PBXNativeTarget "GigglyTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				572775BA2BA2D263005DE2D8 /* Debug */,
+				572775BB2BA2D263005DE2D8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		572775BC2BA2D263005DE2D8 /* Build configuration list for PBXNativeTarget "GigglyUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				572775BD2BA2D263005DE2D8 /* Debug */,
+				572775BE2BA2D263005DE2D8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5727758A2BA2D260005DE2D8 /* Project object */;
+}

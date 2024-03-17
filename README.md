@@ -2,6 +2,9 @@
 
 Giggly is a fun iOS app that allows users to create and view jokes. It provides a simple and intuitive interface for managing jokes.
 
+![Alt Text]([URL des Bildes](https://github.com/LeonNilsSch/Giggly/blob/main/assets/Giggly%20Screen.png))
+
+
 ## Features
 
 - **Create Jokes**: Users can add new jokes with a title and text.

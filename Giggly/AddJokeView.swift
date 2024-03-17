@@ -18,6 +18,7 @@ struct AddJokeView: View {
             TextField("Joke Title", text: $jokeTitle)
                 .font(.custom("Avenir Next", size: 24))
                 .padding()
+                .fontWeight(.bold)
                 .background(Color(.systemTeal))
                 .cornerRadius(10)
                 .foregroundColor(.white) // Set font color to white
@@ -25,6 +26,7 @@ struct AddJokeView: View {
             TextField("Enter a new joke", text: $newJoke)
                 .font(.custom("Avenir Next", size: 24))
                 .padding()
+                .fontWeight(.bold)
                 .background(Color(.systemTeal))
                 .cornerRadius(10)
                 .foregroundColor(.white) // Set font color to white

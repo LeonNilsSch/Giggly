@@ -9,12 +9,16 @@ struct JokeDetailModalView: View {
         VStack {
             Text(title)
                 .font(.title)
+                .font(.custom("Avenir Next", size: 20))
                 .fontWeight(.bold)
+                .foregroundColor(.white)
                 .padding()
             
             Text(jokeText)
                 .font(.title)
+                .font(.custom("Avenir Next", size: 20))
                 .fontWeight(.bold)
+                .foregroundColor(.white)
                 .padding()
             
             Button("Close") {

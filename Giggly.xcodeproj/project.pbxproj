@@ -108,11 +108,11 @@
 		572775942BA2D260005DE2D8 /* Giggly */ = {
 			isa = PBXGroup;
 			children = (
+				5727759B2BA2D262005DE2D8 /* Preview Content */,
+				572775992BA2D262005DE2D8 /* Assets.xcassets */,
 				572775952BA2D260005DE2D8 /* GigglyApp.swift */,
 				572775972BA2D260005DE2D8 /* ContentView.swift */,
-				572775992BA2D262005DE2D8 /* Assets.xcassets */,
 				57ED6B152BA354BC00FF0B18 /* Joke.swift */,
-				5727759B2BA2D262005DE2D8 /* Preview Content */,
 				574CDD652BA44415008E149C /* JokePool.swift */,
 				57B4CE4C2BA6F2DC007EBAB3 /* JokeCreator.swift */,
 				57B4CE522BA74407007EBAB3 /* JokeCreatorView.swift */,

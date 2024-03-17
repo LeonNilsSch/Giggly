@@ -1,4 +1,3 @@
-// JokeCreator.swift
 import Foundation
 import Combine
 

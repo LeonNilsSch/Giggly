@@ -48,6 +48,3 @@ Currently, jokes cannot be edited after they are created. This feature may be ad
 
 Contributions are welcome! If you find any bugs or have suggestions for improvements, please open an issue or submit a pull request.
 
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
